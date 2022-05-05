@@ -1,0 +1,68 @@
+body{
+	overflow-x: hidden;
+}
+.top-area{
+	background-image: url("main_image.jpg");
+	background-repeat:  no-repeat;
+	height: 700px;
+	background-size: 100% 100%;
+}
+
+.container-fluid{
+	padding-right: 0px;
+    padding-left: 0px;
+}
+
+.navbar{
+	backdrop-filter: blur(20px);
+}
+
+.navbar-brand {
+	font-size: 2.5rem;
+	padding-left: 30px;
+	color: white;
+	font-style: italic;
+}
+
+.navbar-link{
+	color: white;
+	font-size: 1.25rem;
+}
+
+.cards-decks{
+	padding-left: 100px;
+	max-height: 140px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;  /* IE 10+ */
+}
+.cards-decks::-webkit-scrollbar{
+	background: transparent; /* Chrome/Safari/Webkit */
+  width: 0px;
+
+}
+
+.middle-area, .bottom-area{
+	/*padding-left: 100px;*/
+	padding-top: 30px;
+}
+
+.bottom-area{
+	background: #cdc6e3;
+}
+
+
+.detail-card{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-secondary{
+	padding-bottom: 10px;
+}
+
+.persons{
+	max-height: 360px;
+	max-width: 280px;
+}
