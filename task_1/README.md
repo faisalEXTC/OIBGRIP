@@ -2,3 +2,4 @@
 
 Creating the landing page
 
+![Screenshot](screan_short.png)
